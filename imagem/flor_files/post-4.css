@@ -1,0 +1,23 @@
+.elementor-kit-4{--e-global-color-primary:#944730;--e-global-color-secondary:#C2592E;--e-global-color-text:#1D1D1D;--e-global-color-accent:#F0EDE5;--e-global-typography-primary-font-family:"Recoleta Bold";--e-global-typography-primary-font-size:40px;--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"poppins";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Manrope Regular";--e-global-typography-text-font-size:15px;--e-global-typography-text-font-weight:500;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-container{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-container{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-container{--container-max-width:767px;}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Recoleta Bold';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https://fulora.co/wp-content/uploads/2022/04/Recoleta-Bold.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Manrope Regular';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('https://fulora.co/wp-content/uploads/2022/04/manrope-regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Manrope Regular';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('https://fulora.co/wp-content/uploads/2022/04/manrope-semibold.woff2') format('woff2');
+}
+/* End Custom Fonts CSS */
