@@ -10,8 +10,8 @@
 }
 form {
     background-color: whitesmoke;
-    padding: 2rem;
-    width: 30rem;
+    padding: 2%;
+    width: 26rem;
     height: auto;
-    justify-content: center;
+    justify-self: center;
 }

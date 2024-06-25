@@ -23,6 +23,7 @@ header {
     justify-content: flex-end;
     gap: 10%;
     width: 100%;
+    font-size: 100%;
 }
 .nav-item a{
     text-decoration: none;
