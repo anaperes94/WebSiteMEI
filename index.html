@@ -7,45 +7,36 @@
    <link rel="stylesheet" href="Styles/header.css">
    <link rel="stylesheet" href="Styles/home.css">
    <link rel="stylesheet" href="Styles/styles.css">
-   <link rel="stylesheet" href="Styles/opções.css">
-   <link rel="stylesheet" href="Styles/Localização.css">
-    <title>Document</title>
+   <link rel="stylesheet" href="Styles/opcoes.css">
+   <link rel="stylesheet" href="Styles/Localizacao.css">
+   <link rel="stylesheet" href="Styles/form.css">
+    <title>Catalogo Flores</title>
 </head>
 <body>
-    <header>
-    </header>
     <header>
         <nav id="navbar">
             <i class="fa-solid fa-flower" style=color:black; id= "nav_logo">FLOWER</i>
             <ul id="nav-list">
                 <li class="nav-item active">
-                <a href="Início">Início</a>
+                <a href="">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#Contato">Contato</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Localização">Localização</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Testemunhas">Testemunhas</a>
-                            </li>
-           <button class="btn-default">
-            Encomende aqui
-           </button>
+                    <a href="#section_contact">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#section_contact">Localização</a>
+                </li>
+                <button class="btn-default">
+                    Encomende aqui
+                </button>
             </ul>
         </nav>
     <main id="content">
         <section id="home">
-            <div class="shape"></div>
             <div id="cta">
-             <h1 class="title">
-                Frase de 
-                <span>Efeito</span>
-             </h1>
+             <h1 class="title">Floresça suas <span>Emoções</span></h1>
              <p class="description">
-               <p> Lorem ipsum dolor sit amet consectetur
-                 adipisicing elit. Sint esse, quos voluptatem tempora.</p>
+               <p> Seja bem vindo ao nosso catalogo, aqui você pode encontrar boa parte dos nosso produtos, para mais informações, por favor entre em contato pelo nosso numero.</p>
 
                  <div id="cta-buttons">
                     <a href="#" class="btn-default">
@@ -72,10 +63,6 @@
 
             <div id="dishes">
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
                     <img src="imagem/Bu.jpg.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
@@ -104,10 +91,6 @@
                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
                     <img src="imagem/bu2.jpg.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
@@ -136,10 +119,6 @@
                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
                     <img src="imagem/bu.jpg.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
@@ -168,10 +147,6 @@
                 </div>
 
                 <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
                     <img src="imagem/bu4.jpg.png" class="dish-image" alt="">
 
                     <h3 class="dish-title">
@@ -201,25 +176,32 @@
             </div>
         </section>
 
-        <section id="Localização">
-            <h1> ENTRE EM CONTATO</h1>
-            <div class="container-form">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9042463448422!2d-38.45679632508139!3d-12.977975887337978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b1822bdf3e5%3A0xbca0caabcae46f30!2sFulora!5e0!3m2!1spt-BR!2sbr!4v1718588936366!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-            <form> 
-            <div class="inputform">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="Nome">
+        <section id="locaConta">
+            <div id="section_localização">
+                <h1> LOCALIZAÇÃO </h1>
+                <div class="container-form">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9042463448422!2d-38.45679632508139!3d-12.977975887337978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b1822bdf3e5%3A0xbca0caabcae46f30!2sFulora!5e0!3m2!1spt-BR!2sbr!4v1718588936366!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                </div>
             </div>
-            <div class="inputform">
-                <i class="fa-solid fa-paper-plane"></i>
-                <input type="text" placeholder="Email">
-            </div>
-            <div class="inputform">
-                <i class="fa-solid fa-phone"></i>
-                <input type="text" placeholder="Telefone">
-            </div>
-            <button>ENVIAR</button>
-           </form>
+            <div id="section_contact">
+                <form> 
+                    <h1 name="#Contato" > ENTRE EM CONTATO</h1>
+                    <div class="form-container">
+                        <h2>Contact Us</h2>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit</button>
+                </form>
             </div>
         </section>
     </main>
