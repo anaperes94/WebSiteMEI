@@ -82,12 +82,12 @@ content{
 
 #section_localização{
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 #section_contact{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
 }
 
